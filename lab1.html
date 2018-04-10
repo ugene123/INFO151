@@ -1,80 +1,46 @@
 <html>
 <body>
+  <form name="sweaterForm">
+      <h2>Mo's Clothes Sweaters</h2>
 
-<h1>Mo's Clothes Sweaters</h1>
-
-<h4>Step 1: Enter your name, address, and phone number:</h4>
-Name: <input type="text" name = "name"> </input><br>
-State:
-<select>
-  <option>Alabama -- AL</option>
-  <option>Alaska -- AK</option>
-  <option>Arizona -- AZ</option>
-  <option>Arkansas -- AR</option>
-  <option>California -- CA</option>
-  <option>Colorado -- CO</option>
-  <option>Connecticut -- CT</option>
-  <option>Delaware -- DE</option>
-  <option>Florida -- FL</option>
-  <option>Georgia -- GA</option>
-  <option>Hawaii -- HI</option>
-  <option>Idaho -- ID</option>
-  <option>Illinois -- IL</option>
-  <option>Indiana -- IN</option>
-  <option>Iowa -- IA</option>
-  <option>Kansas -- KS</option>
-  <option>Kentucky -- KY</option>
-  <option>Louisiana -- LA</option>
-  <option>Maine -- ME</option>
-  <option>Maryland -- MD</option>
-  <option>Massachusetts -- MA</option>
-  <option>Michigan -- MI</option>
-  <option>Minnesota -- MN</option>
-  <option>Mississippi -- MS</option>
-  <option>Missouri -- MO</option>
-  <option>Montana -- MT</option>
-  <option>Nebraska -- NE</option>
-  <option>Neveda -- NV</option>
-  <option>New Hampshire -- NH</option>
-  <option>New Jersey -- NJ</option>
-  <option>New Mexico -- NM</option>
-  <option>New York -- NY</option>
-  <option>North Carolina -- NC</option>
-  <option>North Dakota -- ND</option>
-  <option>Ohio -- OH</option>
-  <option>Oklahoma -- OK</option>
-  <option>Oregon -- OR</option>
-  <option>Pennsylvania -- PA</option>
-  <option>Rhode Island -- RI</option>
-  <option>South Carolina -- SC</option>
-  <option>Tennessee -- TN</option>
-  <option>Texas -- TX</option>
-  <option>Utah -- UT</option>
-  <option>Vermont -- VT</option>
-  <option>Virginia -- VA</option>
-  <option>Washington -- WA</option>
-  <option>West Virginia -- WV</option>
-  <option>Widsconsin -- WI</option>
-  <option>Wyoming -- WY</option>
-</select><br>
-
-<h4>Step 2: Select the size:</h4>
-<input type="radio" name = "size" value="small"> Small </input>
-<input type="radio" name = "size" value="medium"> Medium </input>
-<input type="radio" name = "size" value="large"> Large </input>
-
-<h4>Step 3: Select the features:</h4>
-<input type="checkbox" name = "features" value="wool"> Wool</input><br>
-<input type="checkbox" name = "features" value="cotton"> Cotton</input>
-
-<h4>Step 4: Enter your questions or special requests here:</h4>
-<textarea rows="5" cols="60">
-Use this input device to allow the customer to enter comments, questions, and so forth.
-It allows multiple lines and wysiwyg formatting:
+      <h4>Step 1: Enter your name, address, and phone number:</h4>
+      <font face="Courier New">
+          Name:&nbsp;&nbsp;<input name="customer_name" type="text" size ="50"><br>
+          State:&nbsp;<select name="states">
+            <option value="CA">California -- CA</option>
+            <option value="CO">Colorado -- CO</option>
+            <option value="CT">Connecticut -- CT</option>
+            <option value="DE">Delaware -- DE</option>
+            <option value="FL">Florida -- FL</option>
+            <option value="NJ">New Jersey -- NJ</option>
+            <option value="PA">Pennsylvania -- PA</option>
+          </select><br>
+        </font>
+      <p>
+        <h4>Step 2: Select the size:</h4>
+        <font face="Courier New">
+          <input type="radio" name = "sizes" value="small"> Small </input>
+          <input type="radio" name = "sizes" value="medium"> Medium </input>
+          <input type="radio" name = "sizes" value="large"> Large </input>
+        </font>
+      </p>
+      <p>
+        <h4>Step 3: Select the features:</h4>
+        <font face="Courier New">
+          <input type="checkbox" name = "features" value="wool"> Wool</input><br>
+          <input type="checkbox" name = "features" value="cotton"> Cotton</input>
+        </font>
+      </p>
+      <p>
+        <h4>Step 4: Enter your questions or special requests here:</h4>
+          <textarea name= "comments" rows="4" cols="75">
+Use this input device to allow the customer to enter comments, questions, and so forth. It allows multiple lines and wysiwyg formatting:
     1. Here is an example of multi-line comment the user can enter.
     2. This is line 2.
-</textarea><br><br>
-<button>Submit</button>
-<button>Clear Entries</button>
+          </textarea>
+      </p>
+        <input type="button" value="Submit" onClick= "doSubmit()">
+        <input type="button" value="Clear Entries" onClick= "clearEntries()">
+    </form>
 </body>
 </html>
