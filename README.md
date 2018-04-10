@@ -9,9 +9,6 @@ This course is the first of two that teach modern techniques for creating Web Sy
 •	Creating dynamic web pages using JavaScript
 •	Using AJAX for creating interactive web applications and rich Internet applications.
 
-Lectures (typically on Tuesday) will adhere closely to the book chapters. We will have weekly assignments (labs, typically on Thursdays) for you to practice on what you have learned. The instructor will provide you with additional resources of a summary or tutorial nature just to refresh your knowledge of the basics of the topics. We will be covering a lot of materials during the term. To prevent being overwhelmed, you must commit to following the readings, handouts, lectures and lab materials closely. Come see me or your lab instructor whenever you have questions.
-
-
 ## COURSE ASSESSMENT 
 
 The course’s evaluation is based on homework/lab assignments to help refine and demonstrate your understanding of the material from the lectures, an individual/group project and presentation, and two exams.
@@ -21,12 +18,6 @@ The course’s evaluation is based on homework/lab assignments to help refine an
 There will be a project based on the course material. The individual/team project is due at the end of the class (week 11).
 
 The project will consist of your own web page development with technologies covered in the course: XHTML, CSS, and JavaScript. It can be any topics/theme. Projects can be done in pairs; but it is okay if you choose to work alone. Early in the term, pair up (if you want to work in a pair) and decide on an appropriate project by Week 6. Though you can choose any theme for your web page, but your project topic must be approved by me before you start working on it. Please let me know what you are doing shortly after the mid-term (Week 6). We will discuss this in more detail in class.
-
-## COURSE OUTLINE  
-
-The course topics may change, so keep an eye out for syllabus changes on the course web site, and announcements made in class.
-
-IST courses may be recorded and streamed for educational use.  Class lectures (not labs) may be recorded using an Apreso/Echo 360 capture system.  Recorded classes may be viewed on Blackboard (http://drexel.blackboard.com/) under the Class Capture link.
 
 ## LABS
 
